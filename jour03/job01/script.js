@@ -1,6 +1,6 @@
 function showhide() {
     var $clic = $("#article");
-    var $texte
+  
   
     if ($clic.length) {
       
