@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "nom": "Saint-Martin",
+      "prenom": "Justine",
+      "email": "justinesaintmartin@laplateforme.io"
+    },
+    {
+      "id": 2,
+      "nom": "Durand",
+      "prenom": "Marie",
+      "email": "marie.durand@laplateforme.io"
+    }
+  ]
+  
