@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"defer></script>
+    <title>Pokemon</title>
+</head>
+<body>
+    <form id="pokemonForm">
+        <input type="text" id="id" name="id" placeholder="ID">
+        <input type="text" id="nom" name="nom" placeholder="Nom">
+        <select id="type" name="type">
+            <option value="">Sélectionnez un type</option>
+            <option value="Grass">Grass</option>
+            <option value="Fire">Fire</option>
+            <option value="Water">Water</option>
+            
+        </select>
+        <input type="button" value="Filtrer" onclick="filtrerPokemon()">
+    </form>
+    <div id="resultats"></div>
+</body>
+</html>
