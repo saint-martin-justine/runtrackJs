@@ -1,0 +1,82 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(81, 184, 81);
+    padding: 20px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 15px;
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20vh;
+    padding: 32px;
+    width: 500px;
+
+}
+form>div{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 12px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+form{
+    align-items: start;
+}
+form>div>div{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: gray;
+}
+input{
+    padding: 8px;
+}
+.mail{
+    width: 380px;
+}
+.submit{
+    width: 400px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+   
+}
+button{
+    border-color: rgb(81, 184, 81);
+    background-color: rgb(81, 184, 81);
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-weight: bolder;
+}
+span{
+    color: red;
+}
+.erreur{
+    display: flex;
+    color: red;
+    font-size: 20px;
+    justify-content: center;
+}
