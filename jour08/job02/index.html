@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Formulaire de Création de Compte</title>
+</head>
+
+<body>
+    <nav>
+       <a href="">Accueil</a>
+       <a href="">Inscription</a>
+       <a href=""> Connexion</a>
+       <a href="">Rechercher</a>
+    </nav>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <p>Civilité :</p>
+            <input type="radio" id="monsieur" name="civilite" value="Monsieur">
+            <label for="monsieur">Monsieur</label><br>
+            <input type="radio" id="madame" name="civilite" value="Madame">
+            <label for="madame">Madame</label><br>
+            <input type="radio" id="autre" name="civilite" value="Autre">
+            <label for="autre">Autre</label>
+    
+            <p>
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" name="prenom" required>
+            </p>
+    
+            <p>
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required>
+            </p>
+    
+            <p>
+                <label for="adresse">Adresse :</label><br>
+                <input type="text" id="adresse" name="adresse" required>
+            </p>
+    
+            <p>
+                <label for="email">Adresse Email :</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+    
+    
+            <p>
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" required>
+            </p>
+    
+            <p>
+                <label for="confirm_password">Confirmez le mot de passe :</label><br>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </p>
+    
+    
+            <p>Choisissez vos passions :</p>
+            <input type="checkbox" id="informatique" name="passion" value="informatique">
+            <label for="informatique">Informatique</label><br>
+            <input type="checkbox" id="voyages" name="passion" value="voyages">
+            <label for="voyages">Voyages</label><br>
+            <input type="checkbox" id="sport" name="passion" value="sport">
+            <label for="sport">Sport</label><br>
+            <input type="checkbox" id="lecture" name="passion" value="lecture">
+            <label for="lecture">Lecture</label>
+    
+            <p>
+                <button type="submit">Valider</button>
+            </p>
+        </form>
+    </main>
+    
+    <footer>
+        <a href="">Accueil</a>
+        <a href="">Inscription</a>
+        <a href=""> Connexion</a>
+        <a href="">Rechercher</a>
+    </footer>
+</body>
+
+</html>
